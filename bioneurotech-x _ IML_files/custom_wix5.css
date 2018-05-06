@@ -1,0 +1,156 @@
+#su_w_s_outer_wrapper, .su_search-container {
+    height: 100%;
+    width: 100%;
+}
+
+#su_w_s_widget #su_w_s_inner_wrapper,
+#su_w_s_widget #su_w_s_input_wrapper input#su_w_s_search_input
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#su_w_s_widget #su_w_s_input_wrapper, #su_w_s_input_wrapper input#su_w_s_search_input
+{
+    vertical-align: middle;
+}
+
+#su_w_s_widget #su_w_s_input_wrapper input#su_w_s_search_input {
+    font-size: 1.2em;
+    background: url('../widget-images/sphereup-b5-search.png') no-repeat 8px 2px;
+    -moz-background-size: 18px 18px;
+    background-size: 18px 18px;
+    padding-left: 30px !important;
+}
+
+#su_w_s_widget #su_w_s_outer_wrapper
+{
+    min-height: 34px;
+    min-width: 50px;
+}
+
+#su_w_s_widget #su_w_s_inner_wrapper
+{
+    height: 100%;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+#su_w_s_widget #su_w_s_input_wrapper
+{
+    height: 100%;
+    display: table-cell;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0px 5px;
+    background: #fff;
+    -webkit-border-radius: 35px 0 0 35px;
+    -moz-border-radius: 35px 0 0 35px;
+    border-radius: 35px 0 0 35px;
+    border-style: solid;
+    border-width: 2px 0 2px 2px;
+    cursor: text;
+}
+
+#su_w_s_widget #su_w_s_input_wrapper #su_w_s_search_input
+{
+    width: 100%;
+    padding: 0px 5px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    position: static;
+}
+
+#su_w_s_widget #su_w_s_input_wrapper #su_w_s_search_input ::-webkit-input-placeholder
+{
+    color: #959596;
+}
+
+#su_w_s_widget #su_w_s_input_wrapper #su_w_s_search_input :-moz-placeholder
+{
+    color: #959596;
+}
+
+#su_w_s_widget #su_w_s_input_wrapper #su_w_s_search_input ::-moz-placeholder
+{
+    color: #959596;
+}
+
+#su_w_s_widget #su_w_s_input_wrapper #su_w_s_search_input :-ms-input-placeholder
+{
+    color: #959596;
+}
+
+#su_w_s_widget #su_w_s_search_end {
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #fff;
+    display: table-cell;
+    width: 50px;
+    height: 100%;
+    -webkit-border-radius: 0 35px 35px 0;
+    -moz-border-radius: 0 35px 35px 0;
+    border-radius: 0 35px 35px 0;
+    border-style: solid;
+    border-width: 2px 2px 2px 0;
+}
+
+#su_w_s_widget #su_w_s_search_btn {
+    visibility: hidden;
+    display:block;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 0 35px 35px 0;
+    -moz-border-radius: 0 35px 35px 0;
+    border-radius: 0 35px 35px 0;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+}
+
+#su_w_s_widget.su_ie #su_w_s_search_btn {
+    height: calc(100% - 6px);
+}
+
+#su_w_s_widget:hover #su_w_s_search_btn, #su_w_s_cta.hover #su_w_s_search_btn{
+    visibility: visible;
+}
+
+/*#su_w_s_widget:hover #su_w_s_search_end, #su_w_s_cta.hover #su_w_s_search_end {
+    display: none;
+}*/
+
+#su_w_s_search_btn:hover{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7; 
+}
+
+#su_w_s_widget #su_w_s_search_icon {
+    width: 100%;
+    height: 100%;
+    background-image: url('../widget-images/sphereup-b5-btn.png');
+    background-repeat: no-repeat;
+    -moz-background-size: 29px 20px;
+    -o-background-size: 29px 20px;
+    -webkit-background-size: 29px 20px;
+    background-size: 29px 20px;
+    background-position: center center;
+}
+
+
+#su_w_s_widget #su_w_s_inner_wrapper .su_w_s_icon_center {
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-sizing: border-box;
+}
