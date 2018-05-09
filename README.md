@@ -11,6 +11,7 @@ I build Deep Convolutional Neural Networks, train those with large datasets, and
 The packaged libraries, module dependencies, code, and datasets, have been adapted from:
 https://github.com/thtrieu/darkflow
 https://github.com/llSourcell/YOLO_Object_Detection
+https://github.com/pjreddie/darknet
 (using Python 3.6 ; AnacondaCmd/Cloud ; TensorFlow1.py ; OpenCVis3 ; numpy ; cython/darknet ; YOLO cfg weights ; ImageNet ) 
 
 I then relate those to NeuroImaging data - based on research literature.
