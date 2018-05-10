@@ -6,13 +6,13 @@
 
 This is a project I am currently working on (Jan - Aug 2018)
 
-I build Deep Convolutional Neural Networks, train those with large datasets, and use them for objection recognition in scenes of people and other items.
+I build Deep Convolutional Neural Networks, train those with large datasets, and use them for objection recognition in scenes of people and other items. The visual field is screened with sets of 2-dim matrices. First, simple edges are detected, then these are combined into more complex shapes with deeper layers. The objects are classified into their respective labels. The positional x,y information for the labels, as well as the %age confidence, is calculated and outputted.
 
 The packaged libraries, module dependencies, code, and datasets, have been adapted from:
 https://github.com/thtrieu/darkflow
 https://github.com/llSourcell/YOLO_Object_Detection
 https://github.com/pjreddie/darknet
-(using Python 3.6 ; AnacondaCmd/Cloud ; TensorFlow1.py ; OpenCVis3 ; numpy ; cython/darknet ; YOLO cfg weights ; ImageNet ) 
+(using Python 3.6 ; AnacondaCmd/Cloud ; TensorFlow1.py ; OpenCVis3 ; numpy ; cython/darknet ; YOLO cfg weights ; ImageNet ; .json ) 
 
 I then relate those to NeuroImaging data - based on research literature.
 
