@@ -29,6 +29,7 @@ This can then be used to generate models of Biological Neural Networks.
 
 The general-purpose AI can be extended horizontally in its functions: eg. I will also be setting up a internet-browser-based user-input-based NLP (natural language processing) system for Sentiment Analysis - that is the emotionality of speech content.
 (Using Python, PythonAnywhere, Flask, SQLite, PythonML, PHP, MS Access, SKLearn, Html5/Css, G-WForms, Tensorflow.js )
+see http://harrymuzart02.pythonanywhere.com/
 
 
 
@@ -38,6 +39,8 @@ The general-purpose AI can be extended horizontally in its functions: eg. I will
 
 <p align="center"> <img src="demo3.gif"/> </p>
 
+[{"label": "person", "confidence": 0.92, "topleft": {"x": 82, "y": 30}, "bottomright": {"x": 733, "y": 525}}, {"label": "tie", "confidence": 0.91, "topleft": {"x": 331, "y": 411}, "bottomright": {"x": 421, "y": 525}}]
+[{"label": "person", "confidence": 0.92, "topleft": {"x": 82, "y": 30}, "bottomright": {"x": 733, "y": 525}}, {"label": "tie", "confidence": 0.91, "topleft": {"x": 331, "y": 411}, "bottomright": {"x": 421, "y": 525}}]
 [{"label": "person", "confidence": 0.92, "topleft": {"x": 82, "y": 30}, "bottomright": {"x": 733, "y": 525}}, {"label": "tie", "confidence": 0.91, "topleft": {"x": 331, "y": 411}, "bottomright": {"x": 421, "y": 525}}]
 
 <p align="center"> <img src="fmri123.jpg"/> </p>
