@@ -13,15 +13,6 @@ Select a Python version
 » Python 3.6 (Bottle 0.12.13)
 Note: If you'd like to use a different version of Bottle to the default version, you can use a virtualenv for your web app. There are instructions here.
 
-Select a Python version
-» Python 2.7
-» Python 3.4
-» Python 3.5
-» Python 3.6
-
-/home/HarryMuzart02/movieclassifier/app.py
-
-
 
 
 
