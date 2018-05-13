@@ -1,0 +1,866 @@
+
+Select a Python version
+» Python 2.7 (Django 1.10)
+» Python 3.4 (Django 1.10)
+» Python 3.5 (Django 1.10)
+» Python 3.6 (Django 1.11b1)
+Note: If you'd like to use a different version of Django to the default version, you can use a virtualenv for your web app. There are instructions here.
+
+Select a Python version
+» Python 2.7 (Bottle 0.12.9)
+» Python 3.4 (Bottle 0.12.9)
+» Python 3.5 (Bottle 0.12.9)
+» Python 3.6 (Bottle 0.12.13)
+Note: If you'd like to use a different version of Bottle to the default version, you can use a virtualenv for your web app. There are instructions here.
+
+Select a Python version
+» Python 2.7
+» Python 3.4
+» Python 3.5
+» Python 3.6
+
+/home/HarryMuzart02/movieclassifier/app.py
+
+
+
+
+
+
+
+
+
+Something went wrong :-(
+This website is hosted by PythonAnywhere, an online hosting environment. 
+Something went wrong while trying to load it; please try again later.
+
+There was an error loading your PythonAnywhere-hosted site. There may be a bug in your code.
+
+Error code: Unhandled Exception
+
+Debugging tips
+The first place to look is at your web app page to ensure that there are no errors indicated there.
+Next, check your site's server and error logs for any messages — you can view them here:
+harrymuzart02.pythonanywhere.com.error.log
+harrymuzart02.pythonanywhere.com.server.log
+You can find helpful tips on the PythonAnywhere help site:
+There's an ImportError in the logs
+"403 Forbidden" error or "Connection Refused" error in logs
+Database connection errors
+There are many more helpful guides on our Help pages
+If you get completely stuck, then drop us a line at support@pythonanywhere.com, in the forums, 
+or using the "Send feedback" link on the site, with the relevant lines from your logs.
+
+
+
+
+
+
+2018-05-13 06:59:40,410: Error running WSGI application
+2018-05-13 06:59:40,417: NameError: name 'app' is not defined
+2018-05-13 06:59:40,417:   File "/var/www/harrymuzart02_pythonanywhere_com_wsgi.py", line 16, in <module>
+2018-05-13 06:59:40,417:     from flask_app import app as application
+2018-05-13 06:59:40,417: 
+2018-05-13 06:59:40,417:   File "/home/HarryMuzart02/mysite/flask_app.py", line 47, in <module>
+2018-05-13 06:59:40,418:     @app.route('/')
+2018-05-13 06:59:40,418: ***************************************************
+2018-05-13 06:59:40,418: If you're seeing an import error and don't know why,
+2018-05-13 06:59:40,418: we have a dedicated help page to help you debug: 
+2018-05-13 06:59:40,418: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2018-05-13 06:59:40,418: ***************************************************
+2018-05-13 07:14:12,288: Error running WSGI application
+2018-05-13 07:14:12,292: NameError: name 'app' is not defined
+2018-05-13 07:14:12,292:   File "/var/www/harrymuzart02_pythonanywhere_com_wsgi.py", line 16, in <module>
+2018-05-13 07:14:12,292:     from flask_app import app as application
+2018-05-13 07:14:12,292: 
+2018-05-13 07:14:12,292:   File "/home/HarryMuzart02/mysite/flask_app.py", line 47, in <module>
+2018-05-13 07:14:12,293:     @app.route('/')
+2018-05-13 07:14:12,293: ***************************************************
+2018-05-13 07:14:12,293: If you're seeing an import error and don't know why,
+2018-05-13 07:14:12,293: we have a dedicated help page to help you debug: 
+2018-05-13 07:14:12,293: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2018-05-13 07:14:12,293: ***************************************************
+2018-05-13 07:14:42,125: Error running WSGI application
+2018-05-13 07:14:42,131: NameError: name 'app' is not defined
+2018-05-13 07:14:42,131:   File "/var/www/harrymuzart02_pythonanywhere_com_wsgi.py", line 16, in <module>
+2018-05-13 07:14:42,131:     from flask_app import app as application
+2018-05-13 07:14:42,131: 
+2018-05-13 07:14:42,131:   File "/home/HarryMuzart02/mysite/flask_app.py", line 47, in <module>
+2018-05-13 07:14:42,132:     @app.route('/')
+2018-05-13 07:14:42,132: ***************************************************
+2018-05-13 07:14:42,132: If you're seeing an import error and don't know why,
+2018-05-13 07:14:42,132: we have a dedicated help page to help you debug: 
+2018-05-13 07:14:42,132: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2018-05-13 07:14:42,132: ***************************************************
+2018-05-13 07:14:44,786: Error running WSGI application
+2018-05-13 07:14:44,787: NameError: name 'app' is not defined
+2018-05-13 07:14:44,787:   File "/var/www/harrymuzart02_pythonanywhere_com_wsgi.py", line 16, in <module>
+2018-05-13 07:14:44,787:     from flask_app import app as application
+2018-05-13 07:14:44,787: 
+2018-05-13 07:14:44,788:   File "/home/HarryMuzart02/mysite/flask_app.py", line 47, in <module>
+2018-05-13 07:14:44,788:     @app.route('/')
+2018-05-13 07:14:44,788: ***************************************************
+2018-05-13 07:14:44,788: If you're seeing an import error and don't know why,
+2018-05-13 07:14:44,788: we have a dedicated help page to help you debug: 
+2018-05-13 07:14:44,788: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2018-05-13 07:14:44,788: ***************************************************
+
+
+
+
+
+
+
+2018-01-01 20:08:23 *** Starting uWSGI 2.0.14 (64bit) on [Mon Jan  1 20:08:22 2018] ***
+2018-01-01 20:08:23 compiled with version: 5.4.0 20160609 on 22 November 2017 21:24:09
+2018-01-01 20:08:23 os: Linux-4.4.0-101-generic #124-Ubuntu SMP Fri Nov 10 18:29:59 UTC 2017
+2018-01-01 20:08:23 nodename: giles-liveweb4
+2018-01-01 20:08:23 machine: x86_64
+2018-01-01 20:08:23 clock source: unix
+2018-01-01 20:08:23 pcre jit disabled
+2018-01-01 20:08:23 detected number of CPU cores: 2
+2018-01-01 20:08:23 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-01-01 20:08:23 detected binary path: /usr/local/bin/uwsgi
+2018-01-01 20:08:23 *** dumping internal routing table ***
+2018-01-01 20:08:23 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-01-01 20:08:23 *** end of the internal routing table ***
+2018-01-01 20:08:23 chdir() to /home/HarryMuzart02/
+2018-01-01 20:08:23 limiting number of processes to 15...
+2018-01-01 20:08:23 your processes number limit is 15
+2018-01-01 20:08:23 your memory page size is 4096 bytes
+2018-01-01 20:08:23 detected max file descriptor number: 123456
+2018-01-01 20:08:23 building mime-types dictionary from file /etc/mime.types...
+2018-01-01 20:08:23 536 entry found
+2018-01-01 20:08:23 lock engine: pthread robust mutexes
+2018-01-01 20:08:23 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-01-01 20:08:23 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-01-01 20:08:23 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-01-01 20:08:23 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-01-01 20:08:23 Python main interpreter initialized at 0x20a2610
+2018-01-01 20:08:23 your server socket listen backlog is limited to 100 connections
+2018-01-01 20:08:23 your mercy for graceful operations on workers is 60 seconds
+2018-01-01 20:08:23 setting request body buffering size to 65536 bytes
+2018-01-01 20:08:23 mapped 333952 bytes (326 KB) for 1 cores
+2018-01-01 20:08:23 *** Operational MODE: single process ***
+2018-01-01 20:08:23 initialized 35 metrics
+2018-01-01 20:08:23 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x20a2610 pid: 30320 (default app)
+2018-01-01 20:08:23 *** uWSGI is running in multiple interpreter mode ***
+2018-01-01 20:08:23 gracefully (RE)spawned uWSGI master process (pid: 30320)
+2018-01-01 20:08:23 spawned uWSGI worker 1 (pid: 30322, cores: 1)
+2018-01-01 20:08:23 metrics collector thread started
+2018-01-01 20:08:23 spawned 2 offload threads for uWSGI worker 1
+2018-01-01 20:09:39 Mon Jan  1 20:09:39 2018 - received message 1 from emperor
+2018-01-01 20:09:39 ...gracefully killing workers...
+2018-01-01 20:09:39 Gracefully killing worker 1 (pid: 30322)...
+2018-01-01 20:09:41 *** Starting uWSGI 2.0.14 (64bit) on [Mon Jan  1 20:09:40 2018] ***
+2018-01-01 20:09:41 compiled with version: 5.4.0 20160609 on 22 November 2017 21:24:09
+2018-01-01 20:09:41 os: Linux-4.4.0-101-generic #124-Ubuntu SMP Fri Nov 10 18:29:59 UTC 2017
+2018-01-01 20:09:41 nodename: giles-liveweb4
+2018-01-01 20:09:41 machine: x86_64
+2018-01-01 20:09:41 clock source: unix
+2018-01-01 20:09:41 pcre jit disabled
+2018-01-01 20:09:41 detected number of CPU cores: 2
+2018-01-01 20:09:41 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-01-01 20:09:41 detected binary path: /usr/local/bin/uwsgi
+2018-01-01 20:09:41 *** dumping internal routing table ***
+2018-01-01 20:09:41 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-01-01 20:09:41 *** end of the internal routing table ***
+2018-01-01 20:09:41 chdir() to /home/HarryMuzart02/
+2018-01-01 20:09:41 limiting number of processes to 15...
+2018-01-01 20:09:41 your processes number limit is 15
+2018-01-01 20:09:41 your memory page size is 4096 bytes
+2018-01-01 20:09:41 detected max file descriptor number: 123456
+2018-01-01 20:09:41 building mime-types dictionary from file /etc/mime.types...
+2018-01-01 20:09:41 536 entry found
+2018-01-01 20:09:41 lock engine: pthread robust mutexes
+2018-01-01 20:09:41 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-01-01 20:09:41 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-01-01 20:09:41 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-01-01 20:09:41 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-01-01 20:09:41 Python main interpreter initialized at 0x8cf610
+2018-01-01 20:09:41 your server socket listen backlog is limited to 100 connections
+2018-01-01 20:09:41 your mercy for graceful operations on workers is 60 seconds
+2018-01-01 20:09:41 setting request body buffering size to 65536 bytes
+2018-01-01 20:09:41 mapped 333952 bytes (326 KB) for 1 cores
+2018-01-01 20:09:41 *** Operational MODE: single process ***
+2018-01-01 20:09:41 initialized 35 metrics
+2018-01-01 20:09:41 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8cf610 pid: 30364 (default app)
+2018-01-01 20:09:41 *** uWSGI is running in multiple interpreter mode ***
+2018-01-01 20:09:41 gracefully (RE)spawned uWSGI master process (pid: 30364)
+2018-01-01 20:09:41 spawned uWSGI worker 1 (pid: 30366, cores: 1)
+2018-01-01 20:09:41 metrics collector thread started
+2018-01-01 20:09:41 spawned 2 offload threads for uWSGI worker 1
+2018-01-01 20:09:44 announcing my loyalty to the Emperor...
+2018-01-01 20:15:24 Mon Jan  1 20:15:24 2018 - *** /etc/uwsgi/harrymuzart02.pythonanywhere.com.ini has been touched... grace them all !!! ***
+2018-01-01 20:15:24 ...gracefully killing workers...
+2018-01-01 20:15:24 Gracefully killing worker 1 (pid: 30366)...
+2018-01-01 20:15:25 Mon Jan  1 20:15:25 2018 - received message 0 from emperor
+2018-01-01 20:15:25 SIGINT/SIGQUIT received...killing workers...
+2018-01-01 20:15:25 worker 1 buried after 0 seconds
+2018-01-01 20:15:25 goodbye to uWSGI.
+2018-01-01 20:15:25 chdir(): No such file or directory [core/uwsgi.c line 1590]
+2018-01-01 20:15:25 VACUUM: unix socket /var/sockets/harrymuzart02.pythonanywhere.com/socket removed.
+2018-01-01 20:15:28 *** Starting uWSGI 2.0.14 (64bit) on [Mon Jan  1 20:15:26 2018] ***
+2018-01-01 20:15:28 compiled with version: 5.4.0 20160609 on 22 November 2017 21:24:09
+2018-01-01 20:15:28 os: Linux-4.4.0-101-generic #124-Ubuntu SMP Fri Nov 10 18:29:59 UTC 2017
+2018-01-01 20:15:28 nodename: giles-liveweb4
+2018-01-01 20:15:28 machine: x86_64
+2018-01-01 20:15:28 clock source: unix
+2018-01-01 20:15:28 pcre jit disabled
+2018-01-01 20:15:28 detected number of CPU cores: 2
+2018-01-01 20:15:28 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-01-01 20:15:28 detected binary path: /usr/local/bin/uwsgi
+2018-01-01 20:15:28 *** dumping internal routing table ***
+2018-01-01 20:15:28 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-01-01 20:15:28 *** end of the internal routing table ***
+2018-01-01 20:15:28 chdir() to /home/HarryMuzart02/
+2018-01-01 20:15:28 limiting number of processes to 15...
+2018-01-01 20:15:28 your processes number limit is 15
+2018-01-01 20:15:28 your memory page size is 4096 bytes
+2018-01-01 20:15:28 detected max file descriptor number: 123456
+2018-01-01 20:15:28 building mime-types dictionary from file /etc/mime.types...
+2018-01-01 20:15:28 536 entry found
+2018-01-01 20:15:28 lock engine: pthread robust mutexes
+2018-01-01 20:15:28 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-01-01 20:15:28 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-01-01 20:15:28 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-01-01 20:15:28 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-01-01 20:15:28 Python main interpreter initialized at 0x11fd610
+2018-01-01 20:15:28 your server socket listen backlog is limited to 100 connections
+2018-01-01 20:15:28 your mercy for graceful operations on workers is 60 seconds
+2018-01-01 20:15:28 setting request body buffering size to 65536 bytes
+2018-01-01 20:15:28 mapped 333952 bytes (326 KB) for 1 cores
+2018-01-01 20:15:28 *** Operational MODE: single process ***
+2018-01-01 20:15:28 initialized 35 metrics
+2018-01-01 20:15:28 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x11fd610 pid: 30532 (default app)
+2018-01-01 20:15:28 *** uWSGI is running in multiple interpreter mode ***
+2018-01-01 20:15:28 gracefully (RE)spawned uWSGI master process (pid: 30532)
+2018-01-01 20:15:28 spawned uWSGI worker 1 (pid: 30534, cores: 1)
+2018-01-01 20:15:28 metrics collector thread started
+2018-01-01 20:15:28 spawned 2 offload threads for uWSGI worker 1
+2018-01-01 20:15:31 announcing my loyalty to the Emperor...
+2018-01-02 18:55:00 *** Starting uWSGI 2.0.14 (64bit) on [Tue Jan  2 18:54:58 2018] ***
+2018-01-02 18:55:00 compiled with version: 5.4.0 20160609 on 22 November 2017 21:24:09
+2018-01-02 18:55:00 os: Linux-4.4.0-101-generic #124-Ubuntu SMP Fri Nov 10 18:29:59 UTC 2017
+2018-01-02 18:55:00 nodename: giles-liveweb4
+2018-01-02 18:55:00 machine: x86_64
+2018-01-02 18:55:00 clock source: unix
+2018-01-02 18:55:00 pcre jit disabled
+2018-01-02 18:55:00 detected number of CPU cores: 2
+2018-01-02 18:55:00 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-01-02 18:55:00 detected binary path: /usr/local/bin/uwsgi
+2018-01-02 18:55:00 *** dumping internal routing table ***
+2018-01-02 18:55:00 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-01-02 18:55:00 *** end of the internal routing table ***
+2018-01-02 18:55:00 chdir() to /home/HarryMuzart02/
+2018-01-02 18:55:00 limiting number of processes to 15...
+2018-01-02 18:55:00 your processes number limit is 15
+2018-01-02 18:55:00 your memory page size is 4096 bytes
+2018-01-02 18:55:00 detected max file descriptor number: 123456
+2018-01-02 18:55:00 building mime-types dictionary from file /etc/mime.types...
+2018-01-02 18:55:00 536 entry found
+2018-01-02 18:55:00 lock engine: pthread robust mutexes
+2018-01-02 18:55:00 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-01-02 18:55:00 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-01-02 18:55:00 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-01-02 18:55:00 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-01-02 18:55:00 Python main interpreter initialized at 0x20a2610
+2018-01-02 18:55:00 your server socket listen backlog is limited to 100 connections
+2018-01-02 18:55:00 your mercy for graceful operations on workers is 60 seconds
+2018-01-02 18:55:00 setting request body buffering size to 65536 bytes
+2018-01-02 18:55:00 mapped 333952 bytes (326 KB) for 1 cores
+2018-01-02 18:55:00 *** Operational MODE: single process ***
+2018-01-02 18:55:00 initialized 35 metrics
+2018-01-02 18:55:00 WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x20a2610 pid: 11432 (default app)
+2018-01-02 18:55:00 *** uWSGI is running in multiple interpreter mode ***
+2018-01-02 18:55:00 gracefully (RE)spawned uWSGI master process (pid: 11432)
+2018-01-02 18:55:00 spawned uWSGI worker 1 (pid: 11439, cores: 1)
+2018-01-02 18:55:00 metrics collector thread started
+2018-01-02 18:55:00 spawned 2 offload threads for uWSGI worker 1
+2018-01-02 18:55:02 announcing my loyalty to the Emperor...
+2018-01-12 20:45:10 *** Starting uWSGI 2.0.14 (64bit) on [Fri Jan 12 20:45:09 2018] ***
+2018-01-12 20:45:10 compiled with version: 5.4.0 20160609 on 22 November 2017 21:24:09
+2018-01-12 20:45:10 os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+2018-01-12 20:45:10 nodename: giles-liveweb4
+2018-01-12 20:45:10 machine: x86_64
+2018-01-12 20:45:10 clock source: unix
+2018-01-12 20:45:10 pcre jit disabled
+2018-01-12 20:45:10 detected number of CPU cores: 2
+2018-01-12 20:45:10 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-01-12 20:45:10 detected binary path: /usr/local/bin/uwsgi
+2018-01-12 20:45:10 *** dumping internal routing table ***
+2018-01-12 20:45:10 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-01-12 20:45:10 *** end of the internal routing table ***
+2018-01-12 20:45:10 chdir() to /home/HarryMuzart02/
+2018-01-12 20:45:10 limiting number of processes to 15...
+2018-01-12 20:45:10 your processes number limit is 15
+2018-01-12 20:45:10 your memory page size is 4096 bytes
+2018-01-12 20:45:10 detected max file descriptor number: 123456
+2018-01-12 20:45:10 building mime-types dictionary from file /etc/mime.types...
+2018-01-12 20:45:10 536 entry found
+2018-01-12 20:45:10 lock engine: pthread robust mutexes
+2018-01-12 20:45:10 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-01-12 20:45:10 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-01-12 20:45:10 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-01-12 20:45:10 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-01-12 20:45:10 Python main interpreter initialized at 0x1040610
+2018-01-12 20:45:10 your server socket listen backlog is limited to 100 connections
+2018-01-12 20:45:10 your mercy for graceful operations on workers is 60 seconds
+2018-01-12 20:45:10 setting request body buffering size to 65536 bytes
+2018-01-12 20:45:10 mapped 333952 bytes (326 KB) for 1 cores
+2018-01-12 20:45:10 *** Operational MODE: single process ***
+2018-01-12 20:45:10 initialized 35 metrics
+2018-01-12 20:45:10 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1040610 pid: 13436 (default app)
+2018-01-12 20:45:10 *** uWSGI is running in multiple interpreter mode ***
+2018-01-12 20:45:10 gracefully (RE)spawned uWSGI master process (pid: 13436)
+2018-01-12 20:45:10 spawned uWSGI worker 1 (pid: 13438, cores: 1)
+2018-01-12 20:45:10 metrics collector thread started
+2018-01-12 20:45:10 spawned 2 offload threads for uWSGI worker 1
+2018-01-17 12:12:11 *** Starting uWSGI 2.0.14 (64bit) on [Wed Jan 17 12:12:09 2018] ***
+2018-01-17 12:12:11 compiled with version: 5.4.0 20160609 on 22 November 2017 21:24:09
+2018-01-17 12:12:11 os: Linux-4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018
+2018-01-17 12:12:11 nodename: giles-liveweb4
+2018-01-17 12:12:11 machine: x86_64
+2018-01-17 12:12:11 clock source: unix
+2018-01-17 12:12:11 pcre jit disabled
+2018-01-17 12:12:11 detected number of CPU cores: 2
+2018-01-17 12:12:11 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-01-17 12:12:11 detected binary path: /usr/local/bin/uwsgi
+2018-01-17 12:12:11 *** dumping internal routing table ***
+2018-01-17 12:12:11 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-01-17 12:12:11 *** end of the internal routing table ***
+2018-01-17 12:12:11 chdir() to /home/HarryMuzart02/
+2018-01-17 12:12:11 limiting number of processes to 15...
+2018-01-17 12:12:11 your processes number limit is 15
+2018-01-17 12:12:11 your memory page size is 4096 bytes
+2018-01-17 12:12:11 detected max file descriptor number: 123456
+2018-01-17 12:12:11 building mime-types dictionary from file /etc/mime.types...
+2018-01-17 12:12:11 536 entry found
+2018-01-17 12:12:11 lock engine: pthread robust mutexes
+2018-01-17 12:12:11 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-01-17 12:12:11 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-01-17 12:12:11 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-01-17 12:12:11 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-01-17 12:12:11 Python main interpreter initialized at 0x24ea610
+2018-01-17 12:12:11 your server socket listen backlog is limited to 100 connections
+2018-01-17 12:12:11 your mercy for graceful operations on workers is 60 seconds
+2018-01-17 12:12:11 setting request body buffering size to 65536 bytes
+2018-01-17 12:12:11 mapped 333952 bytes (326 KB) for 1 cores
+2018-01-17 12:12:11 *** Operational MODE: single process ***
+2018-01-17 12:12:11 initialized 35 metrics
+2018-01-17 12:12:11 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x24ea610 pid: 13841 (default app)
+2018-01-17 12:12:11 *** uWSGI is running in multiple interpreter mode ***
+2018-01-17 12:12:11 gracefully (RE)spawned uWSGI master process (pid: 13841)
+2018-01-17 12:12:11 spawned uWSGI worker 1 (pid: 13854, cores: 1)
+2018-01-17 12:12:11 metrics collector thread started
+2018-01-17 12:12:11 spawned 2 offload threads for uWSGI worker 1
+2018-01-17 12:12:13 announcing my loyalty to the Emperor...
+2018-05-11 17:04:54 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 17:04:53 2018] ***
+2018-05-11 17:04:54 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 17:04:54 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 17:04:54 nodename: glenn-liveweb2
+2018-05-11 17:04:54 machine: x86_64
+2018-05-11 17:04:54 clock source: unix
+2018-05-11 17:04:54 pcre jit disabled
+2018-05-11 17:04:54 detected number of CPU cores: 2
+2018-05-11 17:04:54 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 17:04:54 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 17:04:54 *** dumping internal routing table ***
+2018-05-11 17:04:54 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 17:04:54 *** end of the internal routing table ***
+2018-05-11 17:04:54 chdir() to /home/HarryMuzart02/
+2018-05-11 17:04:54 limiting number of processes to 15...
+2018-05-11 17:04:54 your processes number limit is 15
+2018-05-11 17:04:54 your memory page size is 4096 bytes
+2018-05-11 17:04:54 detected max file descriptor number: 123456
+2018-05-11 17:04:54 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 17:04:54 536 entry found
+2018-05-11 17:04:54 lock engine: pthread robust mutexes
+2018-05-11 17:04:54 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 17:04:54 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 17:04:54 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 17:04:54 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 17:04:54 Python main interpreter initialized at 0x1bd7660
+2018-05-11 17:04:54 your server socket listen backlog is limited to 100 connections
+2018-05-11 17:04:54 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 17:04:54 setting request body buffering size to 65536 bytes
+2018-05-11 17:04:54 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 17:04:54 *** Operational MODE: single process ***
+2018-05-11 17:04:54 initialized 35 metrics
+2018-05-11 17:04:54 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1bd7660 pid: 1 (default app)
+2018-05-11 17:04:54 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 17:04:54 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 17:04:54 spawned uWSGI worker 1 (pid: 3, cores: 1)
+2018-05-11 17:04:54 metrics collector thread started
+2018-05-11 17:04:54 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 17:04:57 announcing my loyalty to the Emperor...
+2018-05-11 17:41:13 Fri May 11 17:41:13 2018 - received message 1 from emperor
+2018-05-11 17:41:13 ...gracefully killing workers...
+2018-05-11 17:41:13 Gracefully killing worker 1 (pid: 3)...
+2018-05-11 17:41:16 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 17:41:15 2018] ***
+2018-05-11 17:41:16 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 17:41:16 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 17:41:16 nodename: glenn-liveweb2
+2018-05-11 17:41:16 machine: x86_64
+2018-05-11 17:41:16 clock source: unix
+2018-05-11 17:41:16 pcre jit disabled
+2018-05-11 17:41:16 detected number of CPU cores: 2
+2018-05-11 17:41:16 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 17:41:16 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 17:41:16 *** dumping internal routing table ***
+2018-05-11 17:41:16 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 17:41:16 *** end of the internal routing table ***
+2018-05-11 17:41:16 chdir() to /home/HarryMuzart02/
+2018-05-11 17:41:16 limiting number of processes to 15...
+2018-05-11 17:41:16 your processes number limit is 15
+2018-05-11 17:41:16 your memory page size is 4096 bytes
+2018-05-11 17:41:16 detected max file descriptor number: 123456
+2018-05-11 17:41:16 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 17:41:16 536 entry found
+2018-05-11 17:41:16 lock engine: pthread robust mutexes
+2018-05-11 17:41:16 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 17:41:16 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 17:41:16 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 17:41:16 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 17:41:16 Python main interpreter initialized at 0x25e5660
+2018-05-11 17:41:16 your server socket listen backlog is limited to 100 connections
+2018-05-11 17:41:16 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 17:41:16 setting request body buffering size to 65536 bytes
+2018-05-11 17:41:16 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 17:41:16 *** Operational MODE: single process ***
+2018-05-11 17:41:16 initialized 35 metrics
+2018-05-11 17:41:16 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25e5660 pid: 1 (default app)
+2018-05-11 17:41:16 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 17:41:16 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 17:41:16 spawned uWSGI worker 1 (pid: 3, cores: 1)
+2018-05-11 17:41:16 metrics collector thread started
+2018-05-11 17:41:16 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 17:41:18 announcing my loyalty to the Emperor...
+2018-05-11 18:25:06 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 18:25:05 2018] ***
+2018-05-11 18:25:06 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 18:25:06 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 18:25:06 nodename: glenn-liveweb2
+2018-05-11 18:25:06 machine: x86_64
+2018-05-11 18:25:06 clock source: unix
+2018-05-11 18:25:06 pcre jit disabled
+2018-05-11 18:25:06 detected number of CPU cores: 2
+2018-05-11 18:25:06 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 18:25:06 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 18:25:06 *** dumping internal routing table ***
+2018-05-11 18:25:06 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 18:25:06 *** end of the internal routing table ***
+2018-05-11 18:25:06 chdir() to /home/HarryMuzart02/
+2018-05-11 18:25:06 limiting number of processes to 15...
+2018-05-11 18:25:06 your processes number limit is 15
+2018-05-11 18:25:06 your memory page size is 4096 bytes
+2018-05-11 18:25:06 detected max file descriptor number: 123456
+2018-05-11 18:25:06 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 18:25:06 536 entry found
+2018-05-11 18:25:06 lock engine: pthread robust mutexes
+2018-05-11 18:25:06 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 18:25:06 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 18:25:06 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 18:25:06 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 18:25:06 Python main interpreter initialized at 0x24af660
+2018-05-11 18:25:06 your server socket listen backlog is limited to 100 connections
+2018-05-11 18:25:06 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 18:25:06 setting request body buffering size to 65536 bytes
+2018-05-11 18:25:06 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 18:25:06 *** Operational MODE: single process ***
+2018-05-11 18:25:06 initialized 35 metrics
+2018-05-11 18:25:06 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x24af660 pid: 1 (default app)
+2018-05-11 18:25:06 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 18:25:06 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 18:25:06 spawned uWSGI worker 1 (pid: 3, cores: 1)
+2018-05-11 18:25:06 metrics collector thread started
+2018-05-11 18:25:06 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 18:25:09 announcing my loyalty to the Emperor...
+2018-05-11 18:28:52 Fri May 11 18:28:52 2018 - received message 1 from emperor
+2018-05-11 18:28:52 ...gracefully killing workers...
+2018-05-11 18:28:52 Gracefully killing worker 1 (pid: 3)...
+2018-05-11 18:28:54 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 18:28:53 2018] ***
+2018-05-11 18:28:54 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 18:28:54 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 18:28:54 nodename: glenn-liveweb2
+2018-05-11 18:28:54 machine: x86_64
+2018-05-11 18:28:54 clock source: unix
+2018-05-11 18:28:54 pcre jit disabled
+2018-05-11 18:28:54 detected number of CPU cores: 2
+2018-05-11 18:28:54 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 18:28:54 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 18:28:54 *** dumping internal routing table ***
+2018-05-11 18:28:54 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 18:28:54 *** end of the internal routing table ***
+2018-05-11 18:28:54 chdir() to /home/HarryMuzart02/
+2018-05-11 18:28:54 limiting number of processes to 15...
+2018-05-11 18:28:54 your processes number limit is 15
+2018-05-11 18:28:54 your memory page size is 4096 bytes
+2018-05-11 18:28:54 detected max file descriptor number: 123456
+2018-05-11 18:28:54 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 18:28:54 536 entry found
+2018-05-11 18:28:54 lock engine: pthread robust mutexes
+2018-05-11 18:28:54 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 18:28:54 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 18:28:54 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 18:28:54 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 18:28:54 Python main interpreter initialized at 0x971660
+2018-05-11 18:28:54 your server socket listen backlog is limited to 100 connections
+2018-05-11 18:28:54 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 18:28:54 setting request body buffering size to 65536 bytes
+2018-05-11 18:28:54 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 18:28:54 *** Operational MODE: single process ***
+2018-05-11 18:28:54 initialized 35 metrics
+2018-05-11 18:28:54 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x971660 pid: 1 (default app)
+2018-05-11 18:28:54 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 18:28:54 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 18:28:54 spawned uWSGI worker 1 (pid: 3, cores: 1)
+2018-05-11 18:28:54 metrics collector thread started
+2018-05-11 18:28:54 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 18:28:56 announcing my loyalty to the Emperor...
+2018-05-11 19:01:00 Fri May 11 19:01:00 2018 - *** /etc/uwsgi/harrymuzart02.pythonanywhere.com.ini has been touched... grace them all !!! ***
+2018-05-11 19:01:00 ...gracefully killing workers...
+2018-05-11 19:01:00 Gracefully killing worker 1 (pid: 3)...
+2018-05-11 19:01:00 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 19:01:00 2018] ***
+2018-05-11 19:01:00 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 19:01:00 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 19:01:00 nodename: glenn-liveweb2
+2018-05-11 19:01:00 machine: x86_64
+2018-05-11 19:01:00 clock source: unix
+2018-05-11 19:01:00 pcre jit disabled
+2018-05-11 19:01:00 detected number of CPU cores: 2
+2018-05-11 19:01:00 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 19:01:00 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 19:01:00 *** dumping internal routing table ***
+2018-05-11 19:01:00 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 19:01:00 *** end of the internal routing table ***
+2018-05-11 19:01:00 chdir() to /home/HarryMuzart02/
+2018-05-11 19:01:00 limiting number of processes to 15...
+2018-05-11 19:01:00 your processes number limit is 15
+2018-05-11 19:01:00 your memory page size is 4096 bytes
+2018-05-11 19:01:00 detected max file descriptor number: 123456
+2018-05-11 19:01:00 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 19:01:00 536 entry found
+2018-05-11 19:01:00 lock engine: pthread robust mutexes
+2018-05-11 19:01:00 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 19:01:00 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 19:01:00 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 19:01:00 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 19:01:00 Python main interpreter initialized at 0x17a7660
+2018-05-11 19:01:00 your server socket listen backlog is limited to 100 connections
+2018-05-11 19:01:00 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 19:01:00 setting request body buffering size to 65536 bytes
+2018-05-11 19:01:00 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 19:01:00 *** Operational MODE: single process ***
+2018-05-11 19:01:00 initialized 35 metrics
+2018-05-11 19:01:00 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x17a7660 pid: 1 (default app)
+2018-05-11 19:01:00 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 19:01:00 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 19:01:00 spawned uWSGI worker 1 (pid: 3, cores: 1)
+2018-05-11 19:01:00 metrics collector thread started
+2018-05-11 19:01:00 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 19:01:04 announcing my loyalty to the Emperor...
+2018-05-11 19:57:55 Fri May 11 19:57:55 2018 - received message 1 from emperor
+2018-05-11 19:57:55 ...gracefully killing workers...
+2018-05-11 19:57:55 Gracefully killing worker 1 (pid: 3)...
+2018-05-11 19:57:57 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 19:57:56 2018] ***
+2018-05-11 19:57:57 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 19:57:57 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 19:57:57 nodename: glenn-liveweb2
+2018-05-11 19:57:57 machine: x86_64
+2018-05-11 19:57:57 clock source: unix
+2018-05-11 19:57:57 pcre jit disabled
+2018-05-11 19:57:57 detected number of CPU cores: 2
+2018-05-11 19:57:57 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 19:57:57 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 19:57:57 *** dumping internal routing table ***
+2018-05-11 19:57:57 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 19:57:57 *** end of the internal routing table ***
+2018-05-11 19:57:57 chdir() to /home/HarryMuzart02/
+2018-05-11 19:57:57 limiting number of processes to 15...
+2018-05-11 19:57:57 your processes number limit is 15
+2018-05-11 19:57:57 your memory page size is 4096 bytes
+2018-05-11 19:57:57 detected max file descriptor number: 123456
+2018-05-11 19:57:57 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 19:57:57 536 entry found
+2018-05-11 19:57:57 lock engine: pthread robust mutexes
+2018-05-11 19:57:57 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 19:57:57 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 19:57:57 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 19:57:57 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 19:57:57 Python main interpreter initialized at 0x1ca3660
+2018-05-11 19:57:57 your server socket listen backlog is limited to 100 connections
+2018-05-11 19:57:57 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 19:57:57 setting request body buffering size to 65536 bytes
+2018-05-11 19:57:57 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 19:57:57 *** Operational MODE: single process ***
+2018-05-11 19:57:57 initialized 35 metrics
+2018-05-11 19:57:57 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1ca3660 pid: 1 (default app)
+2018-05-11 19:57:57 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 19:57:57 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 19:57:57 spawned uWSGI worker 1 (pid: 3, cores: 1)
+2018-05-11 19:57:57 metrics collector thread started
+2018-05-11 19:57:57 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 19:57:59 announcing my loyalty to the Emperor...
+2018-05-11 20:02:19 Fri May 11 20:02:19 2018 - received message 1 from emperor
+2018-05-11 20:02:19 ...gracefully killing workers...
+2018-05-11 20:02:19 Gracefully killing worker 1 (pid: 3)...
+2018-05-11 20:02:22 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 20:02:21 2018] ***
+2018-05-11 20:02:22 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 20:02:22 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 20:02:22 nodename: glenn-liveweb2
+2018-05-11 20:02:22 machine: x86_64
+2018-05-11 20:02:22 clock source: unix
+2018-05-11 20:02:22 pcre jit disabled
+2018-05-11 20:02:22 detected number of CPU cores: 2
+2018-05-11 20:02:22 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 20:02:22 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 20:02:22 *** dumping internal routing table ***
+2018-05-11 20:02:22 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 20:02:22 *** end of the internal routing table ***
+2018-05-11 20:02:22 chdir() to /home/HarryMuzart02/
+2018-05-11 20:02:22 limiting number of processes to 15...
+2018-05-11 20:02:22 your processes number limit is 15
+2018-05-11 20:02:22 your memory page size is 4096 bytes
+2018-05-11 20:02:22 detected max file descriptor number: 123456
+2018-05-11 20:02:22 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 20:02:22 536 entry found
+2018-05-11 20:02:22 lock engine: pthread robust mutexes
+2018-05-11 20:02:22 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 20:02:22 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 20:02:22 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 20:02:22 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 20:02:22 Python main interpreter initialized at 0x19b3660
+2018-05-11 20:02:22 your server socket listen backlog is limited to 100 connections
+2018-05-11 20:02:22 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 20:02:22 setting request body buffering size to 65536 bytes
+2018-05-11 20:02:22 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 20:02:22 *** Operational MODE: single process ***
+2018-05-11 20:02:22 initialized 35 metrics
+2018-05-11 20:02:22 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x19b3660 pid: 1 (default app)
+2018-05-11 20:02:22 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 20:02:22 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 20:02:22 spawned uWSGI worker 1 (pid: 3, cores: 1)
+2018-05-11 20:02:22 metrics collector thread started
+2018-05-11 20:02:22 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 20:02:24 announcing my loyalty to the Emperor...
+2018-05-11 20:05:13 Fri May 11 20:05:13 2018 - *** /etc/uwsgi/harrymuzart02.pythonanywhere.com.ini has been touched... grace them all !!! ***
+2018-05-11 20:05:13 ...gracefully killing workers...
+2018-05-11 20:05:13 Gracefully killing worker 1 (pid: 3)...
+2018-05-11 20:05:20 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 20:05:16 2018] ***
+2018-05-11 20:05:20 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 20:05:20 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 20:05:20 nodename: glenn-liveweb2
+2018-05-11 20:05:20 machine: x86_64
+2018-05-11 20:05:20 clock source: unix
+2018-05-11 20:05:20 pcre jit disabled
+2018-05-11 20:05:20 detected number of CPU cores: 2
+2018-05-11 20:05:20 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 20:05:20 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 20:05:20 *** dumping internal routing table ***
+2018-05-11 20:05:20 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 20:05:20 *** end of the internal routing table ***
+2018-05-11 20:05:20 chdir() to /home/HarryMuzart02/
+2018-05-11 20:05:20 limiting number of processes to 15...
+2018-05-11 20:05:20 your processes number limit is 15
+2018-05-11 20:05:20 your memory page size is 4096 bytes
+2018-05-11 20:05:20 detected max file descriptor number: 123456
+2018-05-11 20:05:20 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 20:05:20 536 entry found
+2018-05-11 20:05:20 lock engine: pthread robust mutexes
+2018-05-11 20:05:20 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 20:05:20 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 20:05:20 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 20:05:20 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 20:05:20 Python main interpreter initialized at 0xe62660
+2018-05-11 20:05:20 your server socket listen backlog is limited to 100 connections
+2018-05-11 20:05:20 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 20:05:20 setting request body buffering size to 65536 bytes
+2018-05-11 20:05:20 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 20:05:20 *** Operational MODE: single process ***
+2018-05-11 20:05:20 initialized 35 metrics
+2018-05-11 20:05:20 /usr/local/lib/python3.6/dist-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator SGDClassifier from version 0.18 when using version 0.18.1. This might lead to breaking code or invalid results. Use at your own risk.#012  UserWarning)
+2018-05-11 20:05:20 WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0xe62660 pid: 1 (default app)
+2018-05-11 20:05:20 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 20:05:20 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 20:05:20 spawned uWSGI worker 1 (pid: 4, cores: 1)
+2018-05-11 20:05:20 metrics collector thread started
+2018-05-11 20:05:20 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 20:05:20 announcing my loyalty to the Emperor...
+2018-05-11 20:07:05 Fri May 11 20:07:05 2018 - *** /etc/uwsgi/harrymuzart02.pythonanywhere.com.ini has been touched... grace them all !!! ***
+2018-05-11 20:07:05 ...gracefully killing workers...
+2018-05-11 20:07:05 Gracefully killing worker 1 (pid: 4)...
+2018-05-11 20:07:05 Fri May 11 20:07:05 2018 - received message 1 from emperor
+2018-05-11 20:07:07 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 20:07:06 2018] ***
+2018-05-11 20:07:07 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 20:07:07 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 20:07:07 nodename: glenn-liveweb2
+2018-05-11 20:07:07 machine: x86_64
+2018-05-11 20:07:07 clock source: unix
+2018-05-11 20:07:07 pcre jit disabled
+2018-05-11 20:07:07 detected number of CPU cores: 2
+2018-05-11 20:07:07 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 20:07:07 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 20:07:07 *** dumping internal routing table ***
+2018-05-11 20:07:07 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 20:07:07 *** end of the internal routing table ***
+2018-05-11 20:07:07 chdir() to /home/HarryMuzart02/
+2018-05-11 20:07:07 limiting number of processes to 15...
+2018-05-11 20:07:07 your processes number limit is 15
+2018-05-11 20:07:07 your memory page size is 4096 bytes
+2018-05-11 20:07:07 detected max file descriptor number: 123456
+2018-05-11 20:07:07 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 20:07:07 536 entry found
+2018-05-11 20:07:07 lock engine: pthread robust mutexes
+2018-05-11 20:07:07 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 20:07:07 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 20:07:07 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 20:07:07 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 20:07:07 Python main interpreter initialized at 0x1790660
+2018-05-11 20:07:07 your server socket listen backlog is limited to 100 connections
+2018-05-11 20:07:07 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 20:07:07 setting request body buffering size to 65536 bytes
+2018-05-11 20:07:07 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 20:07:07 *** Operational MODE: single process ***
+2018-05-11 20:07:07 initialized 35 metrics
+2018-05-11 20:07:07 /usr/local/lib/python3.6/dist-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator SGDClassifier from version 0.18 when using version 0.18.1. This might lead to breaking code or invalid results. Use at your own risk.#012  UserWarning)
+2018-05-11 20:07:07 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1790660 pid: 1 (default app)
+2018-05-11 20:07:07 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 20:07:07 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 20:07:07 spawned uWSGI worker 1 (pid: 4, cores: 1)
+2018-05-11 20:07:07 metrics collector thread started
+2018-05-11 20:07:07 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 20:07:09 announcing my loyalty to the Emperor...
+2018-05-11 20:12:44 Fri May 11 20:12:44 2018 - received message 1 from emperor
+2018-05-11 20:12:44 ...gracefully killing workers...
+2018-05-11 20:12:44 Gracefully killing worker 1 (pid: 4)...
+2018-05-11 20:12:46 *** Starting uWSGI 2.0.14 (64bit) on [Fri May 11 20:12:45 2018] ***
+2018-05-11 20:12:46 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-11 20:12:46 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-11 20:12:46 nodename: glenn-liveweb2
+2018-05-11 20:12:46 machine: x86_64
+2018-05-11 20:12:46 clock source: unix
+2018-05-11 20:12:46 pcre jit disabled
+2018-05-11 20:12:46 detected number of CPU cores: 2
+2018-05-11 20:12:46 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-11 20:12:46 detected binary path: /usr/local/bin/uwsgi
+2018-05-11 20:12:46 *** dumping internal routing table ***
+2018-05-11 20:12:46 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-11 20:12:46 *** end of the internal routing table ***
+2018-05-11 20:12:46 chdir() to /home/HarryMuzart02/
+2018-05-11 20:12:46 limiting number of processes to 15...
+2018-05-11 20:12:46 your processes number limit is 15
+2018-05-11 20:12:46 your memory page size is 4096 bytes
+2018-05-11 20:12:46 detected max file descriptor number: 123456
+2018-05-11 20:12:46 building mime-types dictionary from file /etc/mime.types...
+2018-05-11 20:12:46 536 entry found
+2018-05-11 20:12:46 lock engine: pthread robust mutexes
+2018-05-11 20:12:46 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-11 20:12:46 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-11 20:12:46 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-11 20:12:46 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-11 20:12:46 Python main interpreter initialized at 0x1b16660
+2018-05-11 20:12:46 your server socket listen backlog is limited to 100 connections
+2018-05-11 20:12:46 your mercy for graceful operations on workers is 60 seconds
+2018-05-11 20:12:46 setting request body buffering size to 65536 bytes
+2018-05-11 20:12:46 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-11 20:12:46 *** Operational MODE: single process ***
+2018-05-11 20:12:46 initialized 35 metrics
+2018-05-11 20:12:46 /usr/local/lib/python3.6/dist-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator SGDClassifier from version 0.18 when using version 0.18.1. This might lead to breaking code or invalid results. Use at your own risk.#012  UserWarning)
+2018-05-11 20:12:46 WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1b16660 pid: 1 (default app)
+2018-05-11 20:12:46 *** uWSGI is running in multiple interpreter mode ***
+2018-05-11 20:12:46 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-11 20:12:46 spawned uWSGI worker 1 (pid: 4, cores: 1)
+2018-05-11 20:12:46 metrics collector thread started
+2018-05-11 20:12:46 spawned 2 offload threads for uWSGI worker 1
+2018-05-11 20:12:48 announcing my loyalty to the Emperor...
+2018-05-12 22:26:34 workers have been inactive for more than 93600 seconds (1526163991-1526070390)
+2018-05-12 22:26:34 cheap mode enabled: waiting for socket connection...
+2018-05-13 06:54:14 Respawned uWSGI worker 1 (new pid: 9)
+2018-05-13 06:54:14 spawned 2 offload threads for uWSGI worker 1
+2018-05-13 06:54:14 announcing my loyalty to the Emperor...
+2018-05-13 06:59:32 Sun May 13 06:59:32 2018 - *** /etc/uwsgi/harrymuzart02.pythonanywhere.com.ini has been touched... grace them all !!! ***
+2018-05-13 06:59:32 ...gracefully killing workers...
+2018-05-13 06:59:32 Gracefully killing worker 1 (pid: 9)...
+2018-05-13 06:59:33 Sun May 13 06:59:33 2018 - received message 1 from emperor
+2018-05-13 06:59:40 *** Starting uWSGI 2.0.14 (64bit) on [Sun May 13 06:59:36 2018] ***
+2018-05-13 06:59:40 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-13 06:59:40 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-13 06:59:40 nodename: glenn-liveweb2
+2018-05-13 06:59:40 machine: x86_64
+2018-05-13 06:59:40 clock source: unix
+2018-05-13 06:59:40 pcre jit disabled
+2018-05-13 06:59:40 detected number of CPU cores: 2
+2018-05-13 06:59:40 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-13 06:59:40 detected binary path: /usr/local/bin/uwsgi
+2018-05-13 06:59:40 *** dumping internal routing table ***
+2018-05-13 06:59:40 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-13 06:59:40 *** end of the internal routing table ***
+2018-05-13 06:59:40 chdir() to /home/HarryMuzart02/
+2018-05-13 06:59:40 limiting number of processes to 15...
+2018-05-13 06:59:40 your processes number limit is 15
+2018-05-13 06:59:40 your memory page size is 4096 bytes
+2018-05-13 06:59:40 detected max file descriptor number: 123456
+2018-05-13 06:59:40 building mime-types dictionary from file /etc/mime.types...
+2018-05-13 06:59:40 536 entry found
+2018-05-13 06:59:40 lock engine: pthread robust mutexes
+2018-05-13 06:59:40 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-13 06:59:40 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-13 06:59:40 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-13 06:59:40 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-13 06:59:40 Python main interpreter initialized at 0x210d660
+2018-05-13 06:59:40 your server socket listen backlog is limited to 100 connections
+2018-05-13 06:59:40 your mercy for graceful operations on workers is 60 seconds
+2018-05-13 06:59:40 setting request body buffering size to 65536 bytes
+2018-05-13 06:59:40 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-13 06:59:40 *** Operational MODE: single process ***
+2018-05-13 06:59:40 initialized 35 metrics
+2018-05-13 06:59:40 /usr/local/lib/python3.6/dist-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator SGDClassifier from version 0.18 when using version 0.18.1. This might lead to breaking code or invalid results. Use at your own risk.#012  UserWarning)
+2018-05-13 06:59:40 WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x210d660 pid: 1 (default app)
+2018-05-13 06:59:40 *** uWSGI is running in multiple interpreter mode ***
+2018-05-13 06:59:40 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-13 06:59:40 spawned uWSGI worker 1 (pid: 4, cores: 1)
+2018-05-13 06:59:40 metrics collector thread started
+2018-05-13 06:59:40 spawned 2 offload threads for uWSGI worker 1
+2018-05-13 06:59:40 announcing my loyalty to the Emperor...
+2018-05-13 07:14:36 Sun May 13 07:14:36 2018 - *** /etc/uwsgi/harrymuzart02.pythonanywhere.com.ini has been touched... grace them all !!! ***
+2018-05-13 07:14:36 ...gracefully killing workers...
+2018-05-13 07:14:36 Gracefully killing worker 1 (pid: 4)...
+2018-05-13 07:14:42 *** Starting uWSGI 2.0.14 (64bit) on [Sun May 13 07:14:36 2018] ***
+2018-05-13 07:14:42 compiled with version: 5.4.0 20160609 on 02 March 2018 15:49:28
+2018-05-13 07:14:42 os: Linux-4.4.0-1057-aws #66-Ubuntu SMP Thu May 3 12:49:47 UTC 2018
+2018-05-13 07:14:42 nodename: glenn-liveweb2
+2018-05-13 07:14:42 machine: x86_64
+2018-05-13 07:14:42 clock source: unix
+2018-05-13 07:14:42 pcre jit disabled
+2018-05-13 07:14:42 detected number of CPU cores: 2
+2018-05-13 07:14:42 current working directory: (unreachable)/etc/uwsgi/vassals
+2018-05-13 07:14:42 detected binary path: /usr/local/bin/uwsgi
+2018-05-13 07:14:42 *** dumping internal routing table ***
+2018-05-13 07:14:42 [rule: 0] subject: path_info regexp: \.svgz$ action: addheader:Content-Encoding:gzip
+2018-05-13 07:14:42 *** end of the internal routing table ***
+2018-05-13 07:14:42 chdir() to /home/HarryMuzart02/
+2018-05-13 07:14:42 limiting number of processes to 15...
+2018-05-13 07:14:42 your processes number limit is 15
+2018-05-13 07:14:42 your memory page size is 4096 bytes
+2018-05-13 07:14:42 detected max file descriptor number: 123456
+2018-05-13 07:14:42 building mime-types dictionary from file /etc/mime.types...
+2018-05-13 07:14:42 536 entry found
+2018-05-13 07:14:42 lock engine: pthread robust mutexes
+2018-05-13 07:14:42 thunder lock: disabled (you can enable it with --thunder-lock)
+2018-05-13 07:14:42 uwsgi socket 0 bound to UNIX address /var/sockets/harrymuzart02.pythonanywhere.com/socket fd 3
+2018-05-13 07:14:42 Python version: 3.6.0 (default, Jan 13 2017, 00:00:00)  [GCC 4.8.4]
+2018-05-13 07:14:42 *** Python threads support is disabled. You can enable it with --enable-threads ***
+2018-05-13 07:14:42 Python main interpreter initialized at 0x20bd660
+2018-05-13 07:14:42 your server socket listen backlog is limited to 100 connections
+2018-05-13 07:14:42 your mercy for graceful operations on workers is 60 seconds
+2018-05-13 07:14:42 setting request body buffering size to 65536 bytes
+2018-05-13 07:14:42 mapped 333952 bytes (326 KB) for 1 cores
+2018-05-13 07:14:42 *** Operational MODE: single process ***
+2018-05-13 07:14:42 initialized 35 metrics
+2018-05-13 07:14:42 /usr/local/lib/python3.6/dist-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator SGDClassifier from version 0.18 when using version 0.18.1. This might lead to breaking code or invalid results. Use at your own risk.#012  UserWarning)
+2018-05-13 07:14:42 WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x20bd660 pid: 1 (default app)
+2018-05-13 07:14:42 *** uWSGI is running in multiple interpreter mode ***
+2018-05-13 07:14:42 gracefully (RE)spawned uWSGI master process (pid: 1)
+2018-05-13 07:14:42 spawned uWSGI worker 1 (pid: 4, cores: 1)
+2018-05-13 07:14:42 metrics collector thread started
+2018-05-13 07:14:42 spawned 2 offload threads for uWSGI worker 1
+2018-05-13 07:14:42 announcing my loyalty to the Emperor...
