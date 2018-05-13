@@ -13,6 +13,7 @@ My Website: https://harry-muzart.github.io/
 
 Also see: https://www.bioneurotech.com/iwa-dml
 
+
 This is a project I am currently working on (Jan - Aug 2018)
 
 I build Deep Convolutional Neural Networks, train those with large datasets, and use them for objection recognition in scenes of people and other items. The visual field is screened with sets of 2-dim matrices. First, simple edges are detected, then these are combined into more complex shapes with deeper layers. The objects are classified into their respective labels. The positional x,y information for the labels, as well as the %age confidence, is calculated and outputted.
@@ -31,9 +32,10 @@ This can then be used to generate models of Biological Neural Networks.
 
 The general-purpose AI can be extended horizontally in its functions: eg. I will also be setting up a internet-browser-based user-input-based NLP (natural language processing) system for Sentiment Analysis - that is the emotionality of speech content.
 (Using Python, PythonAnywhere, Flask, SQLite, PythonML, PHP, MS Access, SKLearn, Html5/Css, G-WForms, Tensorflow.js )
-see http://harrymuzart02.pythonanywhere.com/
 
+See http://harrymuzart02.pythonanywhere.com/
 
+NB: x
 
 
 =========================
