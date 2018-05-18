@@ -41,6 +41,10 @@ NB: x
 =========================
 
 
+
+Below, Some Examples: (see https://harry-muzart.github.io/ for my other visual demos)
+
+
 <p align="center"> <img src="demo3.gif"/> </p>
 
 [{"label": "person", "confidence": 0.92, "topleft": {"x": 82, "y": 30}, "bottomright": {"x": 733, "y": 525}}, {"label": "tie", "confidence": 0.91, "topleft": {"x": 331, "y": 411}, "bottomright": {"x": 421, "y": 525}}]
