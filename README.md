@@ -35,6 +35,13 @@ The general-purpose AI can be extended horizontally in its functions: eg. I will
 
 See http://harrymuzart02.pythonanywhere.com/
 
+I also used the Google Cloud ML Vision API for Emotional Faces, and PosNet (via TF.js) for Head-Limb relational movements detection, and DeepMind lab for agent-based self-learning 3D paradigms.
+
+https://cloud.google.com/products/machine-learning/
+https://github.com/tensorflow/tfjs-models/tree/master/posenet
+https://github.com/deepmind/lab
+
+
 NB: x
 
 
