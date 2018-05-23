@@ -11,6 +11,11 @@ My Website: https://harry-muzart.github.io/
 My Website: https://harry-muzart.github.io/
 
 
+
+Enable cookies and Flash.
+
+Display & functionalities will be different slightly in different browsers: try G Chrome, MS Edge, Mozilla Firefox, Int Explorer, Opera, Safari, Silk.
+
 Also see: https://www.bioneurotech.com/iwa-dml
 
 
