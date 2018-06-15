@@ -34,6 +34,11 @@ I will also be using ML on neuroimaging data itself - with nilearn (Python) and 
 
 This can then be used to generate models of Biological Neural Networks.
 
+#1 --- Deep Convolutional Neural Networks, train those with large datasets, and use them for Objection Recognition in scenes of people and other items. The visual field is screened with sets of 2-dim matrices. First, simple edges are detected, then these are combined into more complex shapes with deeper layers. 
+The objects are classified into their respective labels. The positional x,y information for the labels, as well as the %age confidence, is calculated and outputted. The packaged libraries, module dependencies, code, and datasets, have been adapted from: https://github.com/pjreddie/darknet (using Python 3.6 ; AnacondaCmd/Cloud ; TensorFlow1.py ; OpenCVis3 ; numpy ; cython/darknet ; YOLO cfg weights ; ImageNet ; .json ) .  
+Here will be a user-based interactive web-based Machine Learning application which will use deep convolutional neural networks to classify fMRI & dtMRI hippocampus-neocortex data in connectivity-strength groups with inference, as a computational model for clinical decisions, the source code will be made open-source on GitHub with push/pull commits welcome.   
+I then relate those to NeuroImaging data - based on research literature. I will also be using ML on neuroimaging data itself - with nilearn (Python) and 3D Slicer (Python/C++), using openfmri.com nii files. This can then be used to generate models of Biological Neural Networks.
+
 Code source from:
 https://github.com/tensorflow/tensorflow
 https://github.com/conda/conda
