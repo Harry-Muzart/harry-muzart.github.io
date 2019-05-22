@@ -52,6 +52,7 @@ https://github.com/fizyr/keras-retinanet
 https://github.com/facebookresearch/detectron
 
 
+
 Since 2005 -
 ImageNet Classification with Deep Convolutional Neural Networks
 Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton (Uni Toronto, Canada; Google DeepMind)
@@ -71,6 +72,9 @@ You Only Look Once: Unified, Real-Time Object Detection
 Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi (Uni Washington, WA, USA; Allen Institute for AI, USA; Facebook AI Research)
 CVPR 2016
 https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf
+
+Browser-based ConvNetJS
+https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
 
 Large-scale Video Classiﬁcation with Convolutional Neural Networks
 Andrej Karpathy, George Toderici, Sanketh Shetty, Thomas Leung, Rahul Sukthankar, Li Fei-Fei (Stanford, CA, USA; Google Brain)
